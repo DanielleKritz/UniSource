@@ -29,7 +29,7 @@ public class Message {
 	*/ 
 	public Message(int taskCode, boolean flag, Object object) {
 		super();
-		this.taskCode = taskCode;
+		this.taskCode = taskCode; // will be 0 for login
 		this.flag = flag;
 		this.object = object;
 	}
